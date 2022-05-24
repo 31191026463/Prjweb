@@ -26,7 +26,7 @@
         <h3 class="mt-5 pt-5">Chỉnh sửa sản phẩm <?= ucfirst($sp['name']) ?></h3>
         <p class="mt-3" style="font-weight: 600"><span style="color: red">Lưu ý: <br></span>+Các đường link của ảnh và các tags được ngăn cách bới dấu phẩy (,).
             Ví dụ:<br>Ảnh:<br>&emsp; https://i.imgur.com/3pZHogY.jpeg, https://i.imgur.com/aw9YYgp.jpeg
-            <br>Tags:<br> &emsp; gỗ, tủ, sồi, nhựa
+            <br>Tags:<br> &emsp; burger, bò, gà, phô mai
         </p>
         <form method="post" action="<?=BASE_URL?>quan-li/quan-li-san-pham/chinh-sua">
             <table class="table border ">
